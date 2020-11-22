@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href='./style.css' rel='stylesheet' type='text/css'>
+  
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+</head>
+
+<body>
+  <div class="header">
+    <img src="images/logo.svg" alt="logo" class="logo">
+    <div class="score-board">
+      <p>SCORE</p>
+      <p id="score">0</p>
+    </div>
+  </div>
+
+  <div id="option">
+    <img src="images/icon-paper.svg" alt="paper" class="element" id="paper">
+    <img src="images/icon-scissors.svg" alt="scissor" class="element" id="scissor">
+    <img src="images/icon-rock.svg" alt="rock" class="element" id="rock">
+  </div>
+
+  <div id="display">
+    <div class="player">
+      <h3>YOU PICKED</h3>
+      <div id="player">
+      </div>
+    </div>
+
+    <div id="replay">
+      <div id="results"></div>
+      <div id="playAgain"><p>PLAY AGAIN</p></div>
+    </div>
+
+    <div class="computer">
+      <h3>THE HOUSE PICKED</h3>
+      <div id="computer">
+        <img src="images/icon-rock.svg" alt="rock" class="element" id="rock">
+      </div>
+    </div>
+  </div>
+
+  <div id="rulesBtn">
+    <p>RULES</p>
+  </div>
+
+  <div class="rules-modal" id="rules">
+    <div class="rules">
+      <img src="images/image-rules.svg" alt="rules" class="rulesImg">
+      <img src="images/icon-close.svg" alt="close" id="closeBtn">
+    </div>
+  </div>
+  
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/joanmadeline" target="_blank">Joan Madeline Poniman</a>.
+  </div>
+
+  <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
